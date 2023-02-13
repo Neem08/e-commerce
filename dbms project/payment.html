@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paymentpage</title>
+    <link rel="stylesheet" href="payment.css" />
+</head>
+<body>
+   
+      <div class="iphone">
+        <header class="header">
+          <h1>Checkout</h1>
+        </header>
+        
+        <form action="https://httpbin.org/post" class="form" method="POST">
+
+          <div class="class">
+            <div class="add">
+              <h2>Address</h2>
+              <textarea id="freeform" name="freeform" rows="4" cols="40">
+                 Enter your address
+                  </textarea>  
+            </div>
+        
+            <fieldset>
+              <legend>Payment Method</legend>
+        
+              <div class="form__radios">
+                <div class="form__radio">
+                  <label for="visa"><svg class="icon">
+                      <use xlink:href="#icon-visa" />
+                    </svg>Cash On Delivery</label>
+                  <input checked id="visa" name="payment-method" type="radio" />
+                </div>
+        
+                <div class="form__radio">
+                  <label for="paypal"><svg class="icon">
+                      <use xlink:href="#icon-paypal" />
+                    </svg>UPI Payment</label>
+                  <input id="paypal" name="payment-method" type="radio" />
+                </div>
+        
+                <div class="form__radio">
+                  <label for="mastercard"><svg class="icon">
+                      <use xlink:href="#icon-mastercard" />
+                    </svg>Pay with Credit/Debit Card</label>
+                  <input id="mastercard" name="payment-method" type="radio" />
+                </div>
+              </div>
+            </fieldset>
+        
+  
+      <div>
+        <button class="button button--full" type="submit" width="10em"><svg class="icon">
+            <use xlink:href="#icon-shopping-bag" />
+          </svg>Pay Now</button>
+      </div>
+    </div>
+    </form>
+ </div>
+</body>
+</html>

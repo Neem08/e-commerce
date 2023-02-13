@@ -1,0 +1,241 @@
+/* font-family: 'Arima Madurai', cursive; */
+/* font-family: 'Creepster', cursive; */
+::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arima Madurai', cursive;
+    scroll-behavior: smooth;
+}
+.bg::before{
+    content: "";
+    background-image: url(./images/salad-g7d68bab29_1920.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 65%;
+    z-index: -1;
+}
+.name{
+    font-family: 'monospace', cursive;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: white;
+}
+.name:hover{
+    cursor: pointer;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin: 0.4em;   
+}
+.btn{
+    padding:  0.5em 1.5em;
+    border-radius: 20px;
+    margin: 0 0 0 1em;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(252, 234, 215);
+    transition: all 0.2s;
+    font-weight: 600;
+}
+.container{
+    padding: 0 3em;
+}
+.couponcode{
+    color: #b2975c;
+}
+/*=================================================================================section 1 */
+.section1{
+    background-color: #16a083 ;
+    position: sticky;
+    top: 0%;
+    z-index: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-between;
+}
+
+/*=====================================================================================section 2 */
+.section2{
+    z-index: -1;
+}
+.buffet{
+    height: 30%;
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+.section2_div1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+.section2_text{
+    width: 40%;
+    padding: 2em;
+    text-align: center;
+    font-weight: 900;
+}
+.section2_text h1{
+    font-size: 2.3rem;
+    text-shadow: 2px 2px 3px #b2975c;
+}
+.para{
+    font-size: 1.2rem;
+    margin-top: 1.5em;
+    font-weight: 800;
+    padding: 1em;
+    color: white;
+    border-radius: 20px;
+    background-color: #16a083 ;
+}
+
+/* ===============================================================================section3 */
+.section3{
+    padding: 1em ;
+}
+.section3_img{
+    height: 33%;
+    width: 30%;
+
+}
+.section3_div{
+    display: flex;
+    flex-direction: row;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+.section3_div img{
+    border-radius: 20px;
+    margin: 2em;
+    height: 25%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.553);
+    width: 25%;
+}
+
+/* ==================================================section4 */
+.section4_div1{
+text-align: center;
+margin: 2em 0;
+color: rgb(7, 7, 5);
+background-color: #16a083 ;
+border-radius: 20px;
+
+}
+
+/*
+.section4_div1 h1, .section4_div2_div h1, .section5_div_div h1, .section6_div_div h4{
+       background: linear-gradient(to bottom, #cfc09f 22%,#d6b671 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#c29e51 78%); 
+       -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #fff;
+}
+*/
+.section4_div2, .section5_div{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 50%;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-top: 3em;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.6);
+    background-color: #16a083 ;
+}
+#offerimg{
+    height: 80%;
+    width: 50%;
+}
+.section4_div2_div{
+    padding: 1em;
+}
+.para2{
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 0.7em 0;
+    color: white;
+    border-radius: 20px;
+}
+
+/* ===================================================section5 */
+.section5_div{
+    flex-direction: row-reverse;
+}
+.section5outer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+#chefimg{
+    height: 70%;
+    width: 40%;
+}
+
+/* ======================================================section6 */
+
+.section6_div{
+display: flex;
+min-height: 400px;
+justify-content: space-between;
+padding-bottom: 2em;
+align-items: flex-end;
+}
+
+
+#section6_div1{
+    width: 50%;
+    margin: 3em auto 1.5em auto;
+    text-align: center;
+    }
+    .section6_outerdiv{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .section6_div_div{
+        align-items: center;
+        min-height: 272px;
+        width: 20%;
+        border-radius: 1000px;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.692);
+        text-align: center;
+        background-color: #16a083;
+    }
+    .section6_div_div h4{
+        color: white;
+        font-size: 1.1rem;
+    }
+    #section6div1, #section6div3{
+        align-self: flex-start;
+    }
+    .reviewhead{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+    #verified{
+        height: 20px;
+        width: 20px;
+    }
+    .section6_div_div p{
+        color: white;
+        padding: 0 2em 0 2em;
+    }

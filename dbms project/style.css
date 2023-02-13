@@ -1,0 +1,67 @@
+* {
+    padding:0;
+    margin:0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .container {
+    height:100vh;
+    display: flex;
+  }
+  
+  section {
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    transition: all .5s;
+  }
+  
+  section:hover {
+    flex:2;
+  }
+  
+  section h1 {
+    background:rgba(0,0,0,0.6);
+    color:white;
+    padding: 12px 32px;
+  }
+  
+  .info{
+    background:rgba(0,0,0,0.6);
+    color:white;
+    padding: 12px 32px;
+    width:26%;
+  }
+  
+  
+  .source{
+    background:url('image1.jpeg') #ff0909;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+  
+  
+  .metro{
+    background:url('metro1.jpeg') #d2ff09;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+  
+  .title{
+  position: absolute;
+  bottom:20%;
+  }
+  
+  .destination{
+    background:url('image1.jpeg') #09ff78;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
